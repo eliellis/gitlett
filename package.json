@@ -1,0 +1,28 @@
+{
+  "name": "gitlett",
+  "version": "0.0.0",
+  "description": "Read from a git repository just like you would the filesystem",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd test; mocha test"
+  },
+  "repository": "",
+  "author": "Eli Ellis",
+  "license": "BSD",
+  "devDependencies": {
+    "comandante": "0.0.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "comandante": "~0.0.1"
+  },
+  "keywords": [
+    "git",
+    "file",
+    "read",
+    "node",
+    "repository"
+  ]
+}
